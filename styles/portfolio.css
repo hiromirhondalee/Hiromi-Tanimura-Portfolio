@@ -34,6 +34,10 @@ h2 {
   font-size: 45px;
 }
 
+h3 {
+  color: var(--brand-color);
+}
+
 a {
   color: var(--brand-color);
 }
@@ -107,9 +111,6 @@ padding: 10px 30px;
   border-radius: 10px;
 }
 
-.card-container h3 {
-  color: var(--brand-color);
-}
 
 .card-container p {
   text-align: center;
@@ -136,12 +137,12 @@ padding: 10px 30px;
   background-color: var(--background-color);
 }
 
-.about-image-wrapper {
+.image-wrapper {
   padding: 30px;
   text-align: center;
 }
 
-.about-text-wrapper {
+.text-wrapper {
   padding: 60px 40px 40px;
 }
 
@@ -158,6 +159,10 @@ padding: 100px auto;
 .light-background-section {
   padding: 10px 30px;
   margin: 20px;
+}
+
+.left-align-header {
+  text-align: left;
 }
 @media (max-width:992px) {
 
@@ -191,13 +196,17 @@ padding: 100px auto;
     width: 200px;
   }
 
-  .about-text-wrapper {
+  .text-wrapper {
     text-align: center;
     padding-top:10px;
   }
 
-  .about-text-wrapper p {
+  .text-wrapper p {
     font-size: 15px;
+  }
+
+  .text-wrapper h3 {
+    text-align: center;
   }
 
   .technology-icons-wrapper {
