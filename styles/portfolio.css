@@ -214,6 +214,7 @@ padding: 100px auto;
     display: none;
   }
 
+
   .quote-container {
     font-size: 20px;
     margin: 30px;
@@ -248,5 +249,9 @@ padding: 100px auto;
 
   .technology-icons-wrapper img {
     width: 80px;
+  }
+
+  .social-network-links-container {
+    font-size: 30px;
   }
 }
