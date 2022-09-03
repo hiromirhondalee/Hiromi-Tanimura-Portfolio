@@ -174,7 +174,7 @@ padding: 100px auto;
 
 .social-network-links-container {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 20px;
   font-size: 50px;
 }
@@ -193,6 +193,11 @@ padding: 100px auto;
   color: var(--brand-color);
 }
 
+.footer-text {
+  color: var(--text-color);
+  font-size: 13px;
+  text-align: center;
+}
 
 
 @media (max-width:992px) {
@@ -206,10 +211,16 @@ padding: 100px auto;
     font-size: 30px;
   }
 
+  .hero, .sub-page-hero {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .hero h2, .sub-page-hero h2 {
     font-size: 20px;
     line-height: 1.5;
   }
+
   .image-container {
     display: none;
   }
@@ -242,9 +253,9 @@ padding: 100px auto;
   }
 
   .technology-icons-wrapper {
-    margin-left:40px;
+  margin-left:10px;
     margin-top: 20px;
-    padding: 10px auto;
+    padding:10px;
   }
 
   .technology-icons-wrapper img {
