@@ -184,6 +184,17 @@ padding: 100px auto;
   color: var(--secondary-color);
 }
 
+.logo {
+  max-width: 45px;
+  margin: 10px;
+}
+
+.brand-name {
+  color: var(--brand-color);
+}
+
+
+
 @media (max-width:992px) {
 
   h1 {
