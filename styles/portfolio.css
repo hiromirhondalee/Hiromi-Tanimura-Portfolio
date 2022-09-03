@@ -164,6 +164,26 @@ padding: 100px auto;
 .left-align-header {
   text-align: left;
 }
+
+.contact-section {
+  text-align: center;
+}
+.contact-section p {
+  text-align: center;
+}
+
+.social-network-links-container {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.social-icon {
+  margin: 10px;
+  color: var(--secondary-color);
+}
+
 @media (max-width:992px) {
 
   h1 {
